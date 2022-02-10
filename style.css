@@ -10,14 +10,25 @@ body {
     text-align: center;
     color: ghostwhite;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-decoration-line: overline underline;
+}
+
+.title {
+    text-align: center;
+}
+
+.bio {
+    text-align: center;
+}
+
+.skillstitle {
+    text-decoration-line: underline;
 }
 
 .skills {
     text-align: center;
     color: rgb(161, 118, 118);
-    text-decoration-line: underline;
     margin-bottom: 30px;
 }
 
