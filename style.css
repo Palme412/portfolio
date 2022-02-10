@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(158, 195, 207);
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    color: ghostwhite;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration-line: overline underline;
+}
+
+.skills {
+    text-align: center;
+    color: rgb(161, 118, 118);
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.skillslist {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    color: rgb(105, 126, 97);
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.projectslist {
+    text-align: center;
+}
