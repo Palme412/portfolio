@@ -39,10 +39,39 @@ body {
 .projects {
     text-align: center;
     color: rgb(105, 126, 97);
-    text-decoration-line: underline;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.projectname {
+    text-align: center;
 }
 
 .projectslist {
     text-align: center;
+}
+
+.sunflower {
+    background-image: "sunflower.png";
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+.pick {
+    background-image: "pick.png";
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}
+
+.cali {
+    background-image: "cali.png";
+    background-color: blue;
+    height: 300px;
+    width: 300px;
 }
