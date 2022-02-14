@@ -37,41 +37,27 @@ body {
 }
 
 .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     color: rgb(105, 126, 97);
     margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: column;
-    align-content: space-around;
-    justify-content: space-between;
+    width: 1300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
 }
 
 .projectname {
     text-align: center;
 }
 
-.projectslist {
-    text-align: center;
+button {
+    font-size: 16px;
+    color: black;
 }
 
-.sunflower {
-    background-image: "sunflower.png";
-    background-color: red;
-    height: 300px;
-    width: 300px;
-}
-
-.pick {
-    background-image: "pick.png";
-    background-color: yellow;
-    height: 300px;
-    width: 300px;
-}
-
-.cali {
-    background-image: "cali.png";
-    background-color: blue;
-    height: 300px;
-    width: 300px;
+.navbar {
+    display: inline-block;
+    
 }
