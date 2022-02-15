@@ -61,3 +61,12 @@ button {
     display: inline-block;
     
 }
+
+.projectbio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 1300px;
+    position: relative;
+    margin: auto;
+}
