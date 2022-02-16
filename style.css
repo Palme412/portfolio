@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(158, 195, 207);
+    background: rgb(163,73,73);
+background: linear-gradient(180deg, rgba(163,73,73,1) 0%, rgba(167,27,27,0.6895133053221288) 36%, rgba(248,252,252,1) 100%);
 }
 
 .portfolio {
@@ -28,7 +29,7 @@ body {
 
 .skills {
     text-align: center;
-    color: rgb(161, 118, 118);
+    color: rgb(14, 12, 12);
     margin-bottom: 30px;
 }
 
