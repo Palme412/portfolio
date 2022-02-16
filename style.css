@@ -78,4 +78,10 @@ button {
         flex-direction: column;
         align-items: center;
     }
+
+    .projectbio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
