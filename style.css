@@ -73,15 +73,15 @@ button {
 }
 
 @media (max-width: 800px) {
-    .projects {
-        display: flex;
-        flex-direction: column;
+    .projects .projectbio {
+        width: 350px;
+        display: block;
         align-items: center;
     }
 
-    .projectbio {
-        display: flex;
-        flex-direction: column;
+    /* .projectbio {
+        display: block;
+        width: 50%;
         align-items: center;
-    }
+    } */
 }
