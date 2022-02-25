@@ -66,10 +66,6 @@ ul {
     
 }
 
-.bio {
-    text-align: center;
-}
-
 .skillstitle {
     text-decoration-line: underline;
 
@@ -107,11 +103,6 @@ ul {
 
 .projectname {
     text-align: center;
-}
-
-button {
-    font-size: 16px;
-    color: black;
 }
 
 .navbar {
