@@ -1,6 +1,13 @@
+
 body {
     background: rgb(163,73,73);
 background: linear-gradient(180deg, rgba(163,73,73,1) 0%, rgba(167,27,27,0.6895133053221288) 36%, rgba(248,252,252,1) 100%);
+background-repeat: no-repeat
+}
+
+.index {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 ul {
@@ -35,11 +42,12 @@ ul {
 .name {
     text-align: center;
     color: ghostwhite;
-    margin-top: 50px;
-    margin-bottom: 10px;
     text-decoration-line: overline underline;
     animation-duration: 3s;
     animation-name: slidein;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 @keyframes slidein {
@@ -55,6 +63,7 @@ ul {
 
 .title {
     text-align: center;
+    
 }
 
 .bio {
@@ -87,6 +96,14 @@ ul {
     position: relative;
     margin: auto;
 }
+.projectbio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 1300px;
+    position: relative;
+    margin: auto;
+}
 
 .projectname {
     text-align: center;
@@ -102,14 +119,116 @@ button {
     
 }
 
-.projectbio {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    width: 1300px;
-    position: relative;
+
+.hobbies {
     margin: auto;
+    width: 50%;
+    padding: 10px;
 }
+
+h1 {
+    color: #333;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+  }
+  
+  h1 span {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  
+  .message {
+    background: lawngreen;
+    color: #333;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 5s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 700px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 700px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 700px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 700px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 700px;
+    }
+    95% {
+      top: -9rem;
+      width: 700px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }  
+
+
+
+
 
 @media (max-width: 800px) {
     .projects .projectbio {
