@@ -1,13 +1,12 @@
 
 body {
     background: rgb(163,73,73);
-background: linear-gradient(180deg, rgba(163,73,73,1) 0%, rgba(167,27,27,0.6895133053221288) 36%, rgba(248,252,252,1) 100%);
-background-repeat: no-repeat
+    background: linear-gradient(180deg, rgba(163,73,73,1) 0%, rgba(167,27,27,0.6895133053221288) 36%, rgba(248,252,252,1) 100%);
 }
 
 .index {
     background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 ul {
@@ -30,7 +29,6 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
   }
@@ -217,9 +215,13 @@ h1 {
     }
   }  
 
-
-
-
+  .jobtitle {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-shadow: 3px 3px #ffe600;
+  }
 
 @media (max-width: 800px) {
     .projects .projectbio {
