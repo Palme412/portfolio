@@ -34,6 +34,10 @@ ul {
 .portfolio {
     text-align: center;
 }
+.headshot {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 .name {
     text-align: center;
