@@ -5,8 +5,7 @@ body {
 }
 
 .index {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: #ffdbac;
 }
 
 ul {
@@ -39,24 +38,17 @@ ul {
 
 .name {
     text-align: center;
-    color: ghostwhite;
-    text-decoration-line: overline underline;
-    animation-duration: 3s;
-    animation-name: slidein;
+    color: black;
     margin: auto;
     width: 50%;
     padding: 10px;
 }
 
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 200%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+.titlebox {
+  border-style: double;
+  border-radius: 5px;
+  width: 900px;
+  margin: auto;
 }
 
 .title {
@@ -108,7 +100,6 @@ ul {
     
 }
 
-
 .hobbies {
     margin: auto;
     width: 50%;
@@ -134,7 +125,7 @@ h1 {
   }
   
   .message {
-    background: lawngreen;
+    background: #e0ac69;
     color: #333;
     display: block;
     font-weight: 900;
@@ -142,7 +133,8 @@ h1 {
     position: absolute;
     padding-left: 0.5rem;
     top: 0.2rem;
-    left: 270px;
+    left: 200px;
+    margin: auto;
     animation: openclose 5s ease-in-out infinite;
   }
   
@@ -159,11 +151,11 @@ h1 {
       width: 0;
     }
     15% {
-      width: 700px;
+      width: 550px;
     }
     30% {
       top: 0.2rem;
-      width: 700px;
+      width: 550px;
     }
     33% {
       top: 0.2rem;
@@ -179,11 +171,11 @@ h1 {
     }
     48% {
       top: -4.5rem;
-      width: 700px;
+      width: 550px;
     }
     62% {
       top: -4.5rem;
-      width: 700px;
+      width: 550px;
     }
     66% {
       top: -4.5rem;
@@ -197,11 +189,11 @@ h1 {
     }
     86% {
       top: -9rem;
-      width: 700px;
+      width: 550px;
     }
     95% {
       top: -9rem;
-      width: 700px;
+      width: 550px;
     }
     98% {
       top: -9rem;
@@ -217,10 +209,6 @@ h1 {
 
   .jobtitle {
     text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-shadow: 3px 3px #ffe600;
   }
 
 @media (max-width: 800px) {
