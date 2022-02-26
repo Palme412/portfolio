@@ -205,16 +205,34 @@ h1 {
     text-align: center;
   }
 
-@media (max-width: 800px) {
-    .projects .projectbio {
-        width: 350px;
-        display: block;
+@media (max-width: 480px) {
+    .projects {
+        float: left;
+        display: inline;
         align-items: center;
+        width: 100%;
+    }
+    .hobbies {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .message {
+      max-width: 480px;
+      align-items: left;
+      margin-left: 0px;
+    }
+    h1 {
+      margin-left: 0px;
+      max-width: 480px;
+    }
+    .titlebox {
+      max-width: 480px;
+      
     }
 
-    /* .projectbio {
-        display: block;
-        width: 50%;
-        align-items: center;
-    } */
+    .name {
+      max-width: 480px;
+      overflow: inherit;
+    }
+
 }
