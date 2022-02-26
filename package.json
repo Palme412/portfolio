@@ -3,4 +3,7 @@
     "animate.css": "^4.1.1",
     "node": "^17.4.0"
   }
+  "scripts": {
+    "start": "node index.html"
+  }
 }
