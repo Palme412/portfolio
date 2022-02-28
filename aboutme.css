@@ -25,7 +25,7 @@
   }
   
   #parallax-1 {
-    background: url('.//cali.jpeg');
+    background: url('./cali.jpeg');
     background-color: black;
     background-attachment: fixed;
     background-position: center;
