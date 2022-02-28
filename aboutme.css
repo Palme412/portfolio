@@ -1,0 +1,69 @@
+.va {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero {
+    background-color: white;
+    }
+
+  .title {
+    color: black;
+    font-weight: 800;
+    font-size: 4rem;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .subtitle {
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  hr.content-divider {
+    max-width: 75px;
+    height: 5px;
+  }
+  
+  #parallax-1 {
+    background: url('.//cali.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top: 3px solid black;
+  }
+  
+  #parallax-1 hr {
+    background: black;
+  }
+  
+  #parallax-2 {
+    background: url('./genre.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 3px solid black;
+  }
+  
+  #parallax-2 hr {
+    background: black;
+  }
+  
+  #parallax-3 {
+    background: url('./sunflower.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 3px solid black;
+  }
+  
+  #parallax-3 hr {
+    background: black;
+  }
+  
+  .label {
+    color: white;
+  }
+  
