@@ -25,7 +25,7 @@
   }
   
   #parallax-1 {
-    background: url('./cali.jpeg');
+    background: url('./assets/cali.jpeg');
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -39,7 +39,7 @@
   }
   
   #parallax-2 {
-    background: url('./genre.jpeg');
+    background: url('./assets/genre.jpeg');
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -53,7 +53,7 @@
   }
   
   #parallax-3 {
-    background: url('./sunflower.jpeg');
+    background: url('./assets/sunflower.jpeg');
     background-color: black;
     background-attachment: fixed;
     background-position: center;
